@@ -1,0 +1,32 @@
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+.todoitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.todoitems-container {
+  display: flex;
+}
+
+.todoitems-text {
+  padding-left: 10px;
+  color: #404040;
+  font-size: 22px;
+}
+
+.todoitems-cross-icon {
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.line-through {
+  text-decoration: line-through solid #adadad 3px;
+}
+.fa {
+  margin-top: 5px;
+}
